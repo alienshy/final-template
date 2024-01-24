@@ -1,0 +1,21 @@
+.searchdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px 0 30px;
+    gap: 10px;
+    input{
+        padding: 5px;
+        outline: none;
+        border-radius: 10px;
+        border: 2px solid #FD5F00;
+        color: #FD5F00;
+    }
+    select{
+        padding: 5px;
+        outline: none;
+        border-radius: 10px;
+        border: 2px solid #FD5F00;
+        color: #FD5F00;
+    }
+}

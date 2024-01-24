@@ -1,0 +1,103 @@
+header{
+    width: 100%;
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    .first{
+        flex: 1 1 calc(33%);
+        max-width: calc(33%);
+        padding: 20px;
+        background-color: #4E4E4E;
+        .test{
+            width: 100%;
+            border: 1px solid white;
+            padding: 30px 10px;
+            h1{
+                font-size: 26px;
+                color: white;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: 900;
+            }
+            p{
+                color: gray;
+            }
+
+        }
+    }
+    .first2{
+        flex: 1 1 calc(33%);
+        max-width: calc(33%);
+        padding: 20px;
+        background-color: #FD5F00;
+        .test{
+            width: 100%;
+            border: 1px solid white;
+            padding: 20px 10px;
+            h1{
+                font-size: 26px;
+                color: white;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: 900;
+            }
+            p{
+                color: gray;
+            }
+        }
+    }
+    .first3{
+        flex: 1 1 calc(33%);
+        max-width: calc(33%);
+        padding: 20px;
+        background-color: #A23131;
+        .test{
+            width: 100%;
+            border: 1px solid white;
+            padding: 20px 10px;
+            h1{
+                font-size: 26px;
+                color: white;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: 900;
+            }
+            p{
+                color: gray;
+            }
+        }
+    }
+}
+@media screen and (max-width:1200px) {
+
+    header{
+        .first{
+            flex: 1 1 calc(50%);
+            max-width: calc(50%);
+        }
+        .first2{
+            flex: 1 1 calc(50%);
+            max-width: calc(50%);
+        }
+        .first3{
+            flex: 1 1 calc(50%);
+            max-width: calc(50%);
+
+        }
+    }
+}
+@media screen and (max-width:800px) {
+
+    header{
+        .first{
+            flex: 1 1 calc(100%);
+            max-width: calc(100%);
+        }
+        .first2{
+            flex: 1 1 calc(100%);
+            max-width: calc(100%);
+        }
+        .first3{
+            flex: 1 1 calc(100%);
+            max-width: calc(100%);
+
+        }
+    }
+}
